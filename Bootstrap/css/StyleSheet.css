@@ -12,11 +12,15 @@ header div{height:64px;}
 .tuscanyMap {
     background: #4fb1a2 url('../images/tuscanyMap.png') center no-repeat;
 }
+
+/*MAIN CONTENT*/
 div.container-fluid{
   /*let's get rid of that 15px right and left padding in this bootstrap class, but keep the rest.*/
   padding-left:0;
   padding-right:0;
 }
+div h1{font-size:22px;}/*overriding h1 size from bootstrap. You could have done this in the custom configuration.*/
+div h2{font-size:18px;}/*overriding h2 size from bootstrap. You could have done this in the custom configuration.*/
 .img-responsive{
     /*adding support for background images to bootstrap's current class*/
     background-size:100% auto;
@@ -44,3 +48,4 @@ div.square{
     color: #fff;
     opacity:.8;
 }
+/*FOOTER*/
