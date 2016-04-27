@@ -1,0 +1,46 @@
+﻿/*
+ * Custom styles
+ * --------------------------------------------------
+ */
+
+/*HEADER*/
+header div{height:64px;}
+#logo {
+    background: #4fb1a2 url(../images/logo_header.png) center no-repeat content-box;
+
+}
+.tuscanyMap {
+    background: #4fb1a2 url('../images/tuscanyMap.png') center no-repeat;
+}
+div.container-fluid{
+  /*let's get rid of that 15px right and left padding in this bootstrap class, but keep the rest.*/
+  padding-left:0;
+  padding-right:0;
+}
+.img-responsive{
+    /*adding support for background images to bootstrap's current class*/
+    background-size:100% auto;
+}
+div.mainImage {
+    background-image: url('../images/Ruined-Shed-000058236200.jpg'); 
+    
+}
+div.promoArea{
+    min-height:350px;
+    
+}
+div.square{
+ 
+}
+.vertical-center{
+  min-height: 350px; 
+  display:flex;
+  align-items: center;
+}
+.overlay {
+    margin:0 auto;
+    padding:20px;
+    background: #434647;
+    color: #fff;
+    opacity:.8;
+}
